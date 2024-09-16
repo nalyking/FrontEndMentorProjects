@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+
+
+
+  <style>
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+      font-family: 'Outfit', sans-serif;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    
+    /* Estilo para o corpo da página */
+    body {
+      background-color: hsl(212, 45%, 89%); /* Cor de fundo */
+      margin: 0; /* Margem zero */
+      padding: 0; /* Preenchimento zero */
+    }
+    
+    /* Estilo para o contêiner principal */
+    .container{
+      width: 100%; /* Largura total */
+      height: 100%; /* Altura total */
+      margin: 0; /* Margem zero */
+      padding: 0; /* Preenchimento zero */
+      display: flex; /* Exibição flexível */
+      justify-content: center; /* Centralizar horizontalmente */
+    }
+    
+    /* Estilo para o cartão */
+    .card {
+      background-color: hsl(0, 0%, 100%); /* Cor de fundo branca */
+      width: 320px; /* Largura do cartão */
+      height: 499px; /* Altura do cartão */
+      min-width: 320px; /* Largura mínima do cartão */
+      border-radius: 20px; /* Bordas arredondadas */
+      display: flex; /* Exibição flexível */
+      flex-direction: column; /* Direção da flexbox em coluna */
+      align-items: center; /* Alinhar itens ao centro */
+      justify-content: center; /* Centralizar verticalmente */
+      margin: 100px; /* Margem ao redor do cartão */
+    }
+    
+    /* Estilo para a imagem do código QR */
+    .qr-code-image { 
+      width: 288px; /* Largura da imagem */
+      height: 288px; /* Altura da imagem */
+      border-radius: 10px; /* Bordas arredondadas */
+    }
+    
+    /* Estilo para o título */
+    .title {
+      font-size: 22px; /* Tamanho da fonte */
+      line-height: 120%; /* Altura da linha */
+      font-weight: 700; /* Peso da fonte */
+      letter-spacing: 0px; /* Espaçamento entre letras */
+      font-family: 'Outfit', sans-serif; /* Família da fonte */
+      color: hsl(218, 44%, 22%); /* Cor do texto */
+      margin: 20px; /* Margem */
+      text-align: center; /* Alinhamento do texto */
+    }
+    
+    /* Estilo para o subtítulo */
+    .subtitle {
+      font-size: 15px; /* Tamanho da fonte */
+      line-height: 140%; /* Altura da linha */
+      letter-spacing: 0.2px; /* Espaçamento entre letras */
+      font-weight: 300; /* Peso da fonte */
+      font-family: 'Outfit', sans-serif; /* Família da fonte */
+      color: #68778D; /* Cor do texto */
+      margin: 20px; /* Margem */
+      text-align: center; /* Alinhamento do texto */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+        <img class="qr-code-image" src="./images/image-qr-code.png" alt="qr-code">
+      <div class="text">
+        <h2 class="title">Improve your front-end skills by building projects</h2>
+        <p class="subtitle">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/nalyking"><strong>Ylan Cristian</strong></a>.
+  </div>
+</body>
+</html>
